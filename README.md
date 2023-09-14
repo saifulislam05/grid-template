@@ -6,6 +6,9 @@ You can view the project live at [View Live Project](https://saifulislam05.githu
 ## Project Description
 The "Grid Template" project is a web page that demonstrates the use of CSS Grid for creating a testimonial grid. It showcases several testimonials, each with a unique background color and content.
 
+## UI
+![image](https://github.com/saifulislam05/grid-template/assets/73392705/98a29d93-5a90-4691-a0a5-50de05175fa0)
+
 ## HTML Explanation
 
 ### Main Container (`.testimonial-grid`)
