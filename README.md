@@ -9,18 +9,15 @@ The "Grid Template" project is a web page that demonstrates the use of CSS Grid 
 ## HTML Explanation
 
 ### Main Container (`.testimonial-grid`)
-
 - The main container holds all the testimonial articles.
 - It uses CSS Grid to arrange testimonials in a grid layout.
 - The grid is divided into five areas: "one," "two," "three," "four," and "five."
 
 ### Testimonial Articles (`.testimonial`)
-
 - There are five testimonial articles with different backgrounds and content.
 - Each testimonial article is a distinct block within the grid.
 
 ### Writer Info (`.writter-info`)
-
 - Inside each testimonial, there is a container for writer information.
 - It uses Flexbox to align items horizontally and add spacing between them.
 
@@ -29,12 +26,10 @@ The "Grid Template" project is a web page that demonstrates the use of CSS Grid 
 - It ensures the image maintains its aspect ratio and has rounded corners.
 
 ### Writer Details (`.writter-details`)
-
 - Contains the writer's name and position.
 - It adjusts the font size for name and position.
 
 ### Testimonial Content (`.content`)
-
 - Contains the testimonial text.
 - The first paragraph has a larger font size and font weight.
 - The second paragraph has a smaller font size and lower opacity.
