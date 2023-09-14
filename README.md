@@ -25,7 +25,6 @@ The "Grid Template" project is a web page that demonstrates the use of CSS Grid 
 - It uses Flexbox to align items horizontally and add spacing between them.
 
 ### Writer Image (`.writter-image`)
-
 - Contains the writer's profile image.
 - It ensures the image maintains its aspect ratio and has rounded corners.
 
@@ -99,7 +98,7 @@ The "Grid Template" project is a web page that demonstrates the use of CSS Grid 
 - `align-items: center;`: Vertically centers items.
 
 ##### Writer Image (`.writter-image`)
-    - `width: 28px;`, `height: 28px;`: Sets dimensions for the writer's image.
+- `width: 28px;, height: 28px` Sets dimensions for the writer's image.
 
 - Writer Image img (`.writter-image img`)
     - `max-width: 100%;`: Limits the image width.
