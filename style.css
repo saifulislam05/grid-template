@@ -19,22 +19,23 @@ body{
     color: #ffffff;
 }
 .secondary-color{
-    color: #cacaca;
+    opacity: 0.8;
 }
 
 
+
+
+
 .testimonial-grid{
-    width: 90%;
-    height: 90%;
+    width: min(95%, 70rem);
+    /* height: 90%; */
     display: grid;
     gap: 1.5rem;
     grid-auto-columns: 1fr;
     grid-template-areas:
-    'one'
-    'two'
-    'three'
-    'four'
-    'five';
+    "one one two five"
+    "three four four five";
+    
 }
 .testimonial{
     padding: 2rem;
@@ -47,18 +48,25 @@ body{
 
 .testimonial.first{
     background:rgb(117, 65, 200) ;
+    grid-area: one;
 }
 .testimonial.second{
     background:rgb(72, 85, 106) ;
+    grid-area: two;
 }
 .testimonial.third{
     background:rgb(255, 255, 255) ;
+    grid-area: three;
+    color: rgb(72, 85, 106);
 }
 .testimonial.fourth{
     background:rgb(25, 33, 46) ;
+    grid-area: four;
 }
 .testimonial.fifth{
     background:rgb(255, 255, 255) ;
+    grid-area: five;
+    color: rgb(72, 85, 106);
 }
 .writter-info{
     display: flex;
@@ -96,6 +104,7 @@ body{
 
 .testimonial .content p:nth-child(2){
     font-size:0.8125rem ;
+    line-height: 1.25rem;
     margin-top:1.25rem ;
     font-weight:400 ;
 }
