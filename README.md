@@ -69,20 +69,20 @@ The "Grid Template" project is a web page that demonstrates the use of CSS Grid 
 - `-webkit-border-radius: .5rem;`, `-moz-border-radius: .5rem;`, `-ms-border-radius: .5rem;`, `-o-border-radius: .5rem;`: Applies border radius to round corners.
 
 ##### Testimonial First (`.testimonial.first`)
-- `background: rgb(117, 65, 200);`: Sets the background color.
+- `background:rgb(117, 65, 200) ;`: Sets the background color.
 
 ##### Testimonial Second (`.testimonial.second`)
-- `background: rgb(72, 85, 106);`: Sets the background color.
+- `background:rgb(72, 85, 106) ;`: Sets the background color.
 
 ##### Testimonial Third (`.testimonial.third`)
-- `background: rgb(255, 255, 255);`: Sets the background color.
+- `background:rgb(255, 255, 255) ;`: Sets the background color.
 - `color: rgb(72, 85, 106);`: Sets the text color.
 
 ##### Testimonial Fourth (`.testimonial.fourth`)
-- `background: rgb(25, 33, 46);`: Sets the background color.
+- `background:rgb(25, 33, 46) ;`: Sets the background color.
 
 ##### Testimonial Fifth (`.testimonial.fifth`)
-- `background: rgb(255, 255, 255);`: Sets the background color.
+- `background:rgb(255, 255, 255) ;`: Sets the background color.
 - `color: rgb(72, 85, 106);`: Sets the text color.
 
 #### Testimonial Quote Background (`.testimonial.quote`)
@@ -96,7 +96,7 @@ The "Grid Template" project is a web page that demonstrates the use of CSS Grid 
 - `align-items: center;`: Vertically centers items.
 
 ##### Writer Image (`.writter-image`)
-- `width: 28px;, height: 28px` Sets dimensions for the writer's image.
+- `width: 28px;`, `height: 28px;`: Sets dimensions for the writer's image.
 
 - Writer Image img (`.writter-image img`)
     - `max-width: 100%;`: Limits the image width.
@@ -129,3 +129,40 @@ The "Grid Template" project is a web page that demonstrates the use of CSS Grid 
 ### Imports (`@import`)
 - Imports the Google Fonts 'Barlow Semi Condensed' for the project's font.
 
+## Responsive Design Explanation
+
+### Extra Small Devices (Phones, 600px and Down)
+- Testimonial grid:
+  - `grid-template-areas`: Adjusts grid layout for single-column display, placing each testimonial in its own row.
+  
+- Writer info (`.writter-info`):
+  - `flex-direction: column;`: Stacks writer info vertically.
+  - `align-items: center;`: Centers writer info vertically.
+  
+- Writer image (`.writter-image`):
+  - `margin-bottom: 0.5rem;`: Adds spacing below the writer's image.
+  
+- Content (`.content`):
+  - `text-align: center;`: Centers the testimonial content horizontally.
+
+<span style="color:red">For devices other than extra small devices, there will be no changes in the alignment of any content. The design remains consistent across larger screens.</span>
+
+
+
+### Small Devices (Portrait Tablets and Large Phones, 600px and Up)
+- Testimonial grid:
+  - `grid-template-areas`: Changes grid layout to a 2-column grid, allowing testimonials to be displayed side by side.
+  
+### Medium Devices (Landscape Tablets, 768px and Up)
+- Testimonial grid:
+  - `grid-template-areas`: Adapts to a 2x2 grid layout, arranging testimonials in a 2x2 grid.
+
+### Large Devices (Laptops/Desktops, 992px and Up)
+- Testimonial grid:
+  - `grid-template-areas`: Transitions to a 2x3 grid layout, accommodating larger screens with three testimonials in the top row and two in the bottom row.
+
+### Extra Large Devices (Large Laptops and Desktops, 1200px and Up)
+- Testimonial grid:
+  - `grid-template-areas`: Adjusts grid layout for a combination of 2x2 and 2x1 grid, placing the first testimonial in the top left, the second in the top right, and the remaining three testimonials in a single column below.
+
+These changes in grid-template-areas help create a responsive and visually appealing layout on different screen sizes.

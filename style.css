@@ -115,3 +115,73 @@ body{
     margin-top:1.25rem ;
     font-weight:400 ;
 }
+/* ----Responsive breakpoints------ */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .testimonial-grid {
+        grid-template-areas:
+            "one"
+            "two"
+            "three"
+            "four"
+            "five";
+    }
+
+    .writter-info {
+        flex-direction: column;
+        /* Stack writer info vertically */
+        align-items: center;
+        /* Center align writer info */
+    }
+
+    .writter-image {
+        margin-bottom: 0.5rem;
+    }
+
+    .content {
+        text-align: center;
+        /* Center align content */
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .testimonial-grid {
+        grid-template-areas:
+            "one one"
+            "two three"
+            "four four"
+            "five five";
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .testimonial-grid {
+        grid-template-areas:
+            "one one"
+            "two three"
+            "four four"
+            "five five";
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .testimonial-grid {
+        grid-template-areas:
+            "one one"
+            "two three"
+            "four five";
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .testimonial-grid {
+        grid-template-areas:
+            "one one two five"
+            "three four four five";
+    }
+}
