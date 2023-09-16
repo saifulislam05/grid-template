@@ -132,6 +132,8 @@ The "Grid Template" project is a web page that demonstrates the use of CSS Grid 
 ## Responsive Design Explanation
 
 ### Extra Small Devices (Phones, 600px and Down)
+![image](https://github.com/saifulislam05/grid-template/assets/73392705/8c2347bf-ca8d-4094-bf63-2b6f0b9fa070)
+
 - Testimonial grid:
   - `grid-template-areas`: Adjusts grid layout for single-column display, placing each testimonial in its own row.
   
@@ -150,18 +152,26 @@ The "Grid Template" project is a web page that demonstrates the use of CSS Grid 
 
 
 ### Small Devices (Portrait Tablets and Large Phones, 600px and Up)
+![image](https://github.com/saifulislam05/grid-template/assets/73392705/5e948e9b-49a9-41f2-bd61-0db49ccd4a24)
+
 - Testimonial grid:
   - `grid-template-areas`: Changes grid layout to a 2-column grid, allowing testimonials to be displayed side by side.
   
 ### Medium Devices (Landscape Tablets, 768px and Up)
+![image](https://github.com/saifulislam05/grid-template/assets/73392705/56221186-e1eb-40f4-aea8-085b6b3aa76b)
+
 - Testimonial grid:
   - `grid-template-areas`: Adapts to a 2x2 grid layout, arranging testimonials in a 2x2 grid.
 
 ### Large Devices (Laptops/Desktops, 992px and Up)
+![image](https://github.com/saifulislam05/grid-template/assets/73392705/17c16bd7-9ac0-40b5-a3f3-ef02b17e6070)
+
 - Testimonial grid:
   - `grid-template-areas`: Transitions to a 2x3 grid layout, accommodating larger screens with three testimonials in the top row and two in the bottom row.
 
 ### Extra Large Devices (Large Laptops and Desktops, 1200px and Up)
+![image](https://github.com/saifulislam05/grid-template/assets/73392705/3fb3ae9a-e451-405f-a88f-5ffd44a0589e)
+
 - Testimonial grid:
   - `grid-template-areas`: Adjusts grid layout for a combination of 2x2 and 2x1 grid, placing the first testimonial in the top left, the second in the top right, and the remaining three testimonials in a single column below.
 
